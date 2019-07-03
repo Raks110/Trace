@@ -16,5 +16,6 @@ Trace: The smart way of handling what you owe and what is owed to you.
 ![Chats Screenshot](https://i.ibb.co/gTV8vCK/Screenshot-20190703-170106.png)
 ![Home screen Screenshot](https://i.ibb.co/CngPKgM/Pics-Art-07-03-05-16-37.png)
 ![Wallet Screenshot](https://i.ibb.co/4jykbj6/Pics-Art-07-03-05-17-33.png)
+![First screen Screenshot](https://i.ibb.co/34kV6fL/Pics-Art-07-03-09-32-22.png)
 
 ###### This app is owned, managed and developed by Rakshit GL. (https://www.linkedin.com/in/rakshitgl)
