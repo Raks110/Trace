@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- APP NAME. Do not change this name in any references further, until noted. -->
+    <string name="app_name">Trace</string>
+    <!-- APP NAME. -->
+
+    <string name="no_chats">Hey there! Your chats are empty.\nClick on the add button here below to get started!</string>
+    <string name="no_wallet">Hey there! Your wallet is empty.\nClick on the add button here below to get started!</string>
+    <string name="login_message">Sign into Trace</string>
+    <string name="login_message_sub">And let us handle all your lend-spend worries.</string>
+    <string name="login_with_google">Sign In with Google</string>
+    <string name="login_with_facebook">Sign In with Facebook</string>
+    <string name="search_user_text">Search users on Trace</string>
+    <string name="connect_with_user">Tap to connect with %1$s.</string>
+    <string name="type_message">Type a message</string>
+    <string name="no_personal_messages">You haven\'t texted %1$s yet. Now maybe the right time to ping them! :)</string>
+    <string name="loading_messages">Trace is fetching your messages</string>
+    <string name="loading_wallet">Trace is fetching your wallet</string>
+    <string name="wallet_text_own_header">You owe your friends</string>
+    <string name="wallet_text_own_footer">Try repaying them whenever you can! :)</string>
+    <string name="wallet_text_others_header">Your friends owe you</string>
+    <string name="wallet_text_others_footer">Well, they should give you a treat! ;)</string>
+    <string name="wallet_footer">Tap to see more details.</string>
+
+    <string name="wallet_text_mid_num"><b><i>%1$d</i></b></string>
+    <string name="wallet_text_mid_curr"><b><i>%1$s</i></b></string>
+
+    <!-- Status Messages -->
+
+    <string name="login_error">Hic! This is embarrassing. Please try again.</string>
+    <string name="login_success">Trace is now at your service! :)</string>
+    <string name="network_error">Trace needs internet to help you out.</string>
+
+    <string name="description_chats">Type <b><i>you own me [three letter currency] [money owed]</i></b> and send the message to your friend so that Trace can help you keep track of your money. Similarly you can type <b><i>I owe you [three letter currency] [money owed]</i></b> and send the message to let your friend know what you owe him/her.\n\nExample:\nYou owe me USD 50.\nI owe you INR 70.\nPlease note that you can use maximum of one occurrence of either "you owe me" or "I owe you" in a single message.\n\nTap on this message to dismiss it.\nLong press on it if you want to see this message again later.</string>
+    <string name="search_tag_others">you owe me</string>
+    <string name="search_tag_own">i owe you</string>
+
+</resources>
+

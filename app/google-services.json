@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "355956713167",
+    "firebase_url": "https://trace-b5eaa.firebaseio.com",
+    "project_id": "trace-b5eaa",
+    "storage_bucket": "trace-b5eaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355956713167:android:7e3b59368df75574",
+        "android_client_info": {
+          "package_name": "com.rakshitgl.trace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355956713167-qd3l7qsh4ia145c6fb1d9p5a2dqa4qa7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsXr0OElI86Ne88KsKAy_KWic7u-rtfl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355956713167-qd3l7qsh4ia145c6fb1d9p5a2dqa4qa7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

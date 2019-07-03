@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.WalletFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/walletShow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/walletShowAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:lottie_autoPlay="true"
+            app:lottie_speed="0.5"
+            app:lottie_fileName="waves.json"
+            app:lottie_loop="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/walletShowMsgHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:autoLink="web"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="@string/wallet_text_others_header"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/walletShowMsgMidNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:autoLink="web"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="@string/wallet_text_mid_num"
+                android:textColor="#FFF"
+                android:textSize="36sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/walletShowMsgMidCurr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="@string/wallet_text_mid_curr"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/walletShowMsgFooter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:autoLink="web"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#FFF"
+                android:text="@string/wallet_text_others_footer"
+                android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <TextView
+                android:id="@+id/walletShowMsgFooterUniversal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:paddingTop="16dp"
+                android:autoLink="web"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#FFF"
+                android:text="@string/wallet_footer"
+                android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/emptyWallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/emptyWalletAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="empty.json"
+            app:lottie_loop="true" />
+
+        <TextView
+            android:id="@+id/emptyWalletMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:autoLink="web"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.4"
+            android:text="@string/no_wallet"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#6c6c6c"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/emptyWalletAnimation" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/loadingwalletFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="16dp"
+        android:background="#FFF"
+        android:visibility="gone">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loadingWalletAnimationList"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:layout_marginBottom="56dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="rippleloading.json"
+            app:lottie_loop="true" />
+
+        <TextView
+            android:id="@+id/loadingWalletMsgList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:autoLink="web"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.4"
+            android:text="@string/loading_wallet"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#6c6c6c"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/loadingWalletAnimationList"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
